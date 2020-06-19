@@ -1,0 +1,32 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Switch</title>
+		<script>
+			//O número digitado no prompt é uma string por isso é necessário fazer cases com strings ou utilizar o recurso casting (converter string para number)
+			var parametro = prompt('Digite um número')
+			//O comando parseInt transforma a string em valor inteiro
+			switch (parseInt(parametro)) {
+
+				case 1:
+				document.write('Parametro 1');
+				//Break indica para o switch que se o case a intrução do case tem que acabar no break.
+				break
+				case 2:
+				document.write('Parametro 2');
+				break
+				case 3:
+				document.write('Parametro 3');
+				break
+				//default é opcional, ele funciona como o "se não" do if
+				default:
+				document.write('Opção não encontrada!')
+			}
+
+		</script>
+	</head>
+	<body>
+
+	</body>
+	</html>
